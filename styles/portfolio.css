@@ -166,6 +166,7 @@ font-family: Open Sans;
 font-size: 25px;
 
 font-weight: 700;
+margin-bottom:10px ;
 
 }
 .resume-item-inistitute{
@@ -174,6 +175,8 @@ font-family: Open Sans;
 font-size: 20px;
 
 font-weight: 600;
+margin-bottom: 20px;
+margin-top: 0;
 
 }
 .resume-item-description{
@@ -186,8 +189,16 @@ line-height: 28px;
 }
 .resume-container{
     display: flex;
+    gap: 50px;
 }
-
+.resume-item{
+background:  #FFF;
+}
+/* download cv button */
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
+}
 
 
 
